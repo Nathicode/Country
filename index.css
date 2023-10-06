@@ -15,6 +15,14 @@ body {
     color: white;
     
 }
+@media only screen and (max-width: 435px){
+    .top {
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+  
+}
 .logo {
     width: 50%;
     font-size: small;
@@ -109,3 +117,4 @@ text-align: center;
     text-align: center;
     margin-left: auto;
 }
+
