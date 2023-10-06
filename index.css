@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #171A21;
+}
+.top {
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+    color: white;
+    
+}
+.logo {
+    width: 50%;
+    font-size: small;
+}
+.search {
+    background-color: black;
+    display: flex;
+    widthj: 50%;
+    justify-content: center;
+    border-radius: 5px;
+}
+.search input {
+background-color: black;
+border: none;
+outline: none;
+color: white;
+font-family: 'Poppins', sans-serif;
+text-transform: capitalize;
+border-radius: 5px;
+}
+.search span {
+    color: white;
+    background-color: ;
+}
+.search button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+}
+.search:hover {
+    box-shadow: 0 0 10px white;
+}
+.cards {
+background-color: black;
+width: 60%;
+margin: auto;
+color: white;
+display: flex;
+flex-direction: column;
+text-align: center;
+padding: 2px;
+border-radius: 20px;
+height: auto;
+justify-content: space-between;
+justify-content: center;
+text-align: center;
+
+}
+#gamename, #desc {
+    background: #171A21;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+}
+#title {
+    color: white;
+    text-align: center;
+}
+.write img {
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+.write img:hover {
+    box-shadow: 0 0 10px white;
+}
+@media (min-width: 700px){
+    .cards {
+        width: 30%;
+    }
+}
+.card {
+    margin-bottom: 1cm;
+    
+}
+.cards {
+    padding-bottom: 1cm;
+}
+.cards:hover {
+    background-color: rgba(0, 0, 0, .5);
+}
+#countryname, #continent, #population {
+    background-color: #171A21;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#loading {
+    margin: auto;
+    text-align: center;
+    margin-left: auto;
+}
